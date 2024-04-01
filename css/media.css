@@ -1,0 +1,165 @@
+@media(max-width: 1389px) {
+
+  .step:nth-child(3),
+  .step:nth-child(2) {
+    padding-top: 0;
+  }
+
+  .how__steps {
+    column-gap: 20px;
+  }
+
+  .story__row {
+    flex-direction: column-reverse;
+  }
+
+  .container-wide {
+    width: 100%;
+  }
+}
+
+@media(max-width: 1300px) {
+  .how__header-head {
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 1024px) {
+  .header__nav-list {
+    gap: 0 30px;
+  }
+
+  .how__header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .story {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .product__img-wrapper {
+    flex: 1 0 auto;
+    flex-basis: 50%;
+    margin-right: 30px;
+  }
+
+  .product {
+    padding-top: 50px;
+  }
+}
+
+@media(max-width: 920px) {
+
+  .header__nav,
+  .header__login {
+    display: none;
+  }
+
+  .home {
+    min-height: unset;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .home__heading {
+    font-size: 45px;
+  }
+
+  .btn {
+    padding: 13px 30px;
+  }
+
+  .how {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .how__header-subtitle {
+    font-size: 40px;
+  }
+
+  .how__header-content {
+    padding-top: 20px;
+  }
+
+  .product__row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product__img-wrapper {
+    margin-right: 0;
+  }
+
+  .product__content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .product__subtitle {
+    font-size: 35px;
+  }
+
+  .mobile-nav-button {
+    display: flex;
+  }
+}
+
+@media(max-width: 650px) {
+  .product__img-wrapper {
+    padding-left: 0;
+    padding-bottom: 168px;
+  }
+
+  .product__card {
+    left: 24%;
+  }
+}
+
+@media(max-width: 500px) {
+  .product__card {
+    left: 0;
+  }
+
+  .product__img-wrapper {
+    padding-bottom: 252px;
+  }
+
+  .footer__content,
+  .footer__nav {
+    text-align: center;
+  }
+
+  .footer__nav-list {
+    max-width: 100%;
+  }
+
+  .how__steps {
+    justify-content: center;
+    column-gap: 0;
+  }
+}
+
+@media(max-width: 420px) {
+  .how__steps {
+    grid-template-columns: 1fr;
+  }
+
+  .story__heading {
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+
+  .story__text {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 414px) {
+  .home {
+    background-position: right center
+  }
+}
